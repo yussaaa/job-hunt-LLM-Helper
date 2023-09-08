@@ -8,6 +8,10 @@ from src.langchain_helper_chatapi import (
     resume_jd_skill_match,
 )
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.title("Job Hunting LLM ⛓ Helper")
 st.text(
